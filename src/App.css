@@ -1,0 +1,199 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.simulator {
+  display: flex;
+  gap: 50px;
+  margin-top: 90px;
+}
+
+.home-wrapper {
+  max-width: 1230px;
+  width: 80%;
+  margin: 150px auto;
+}
+
+.guide-content {
+  text-align: start;
+  margin: 30px 0px;
+}
+
+.guide-content_title {
+  text-align: left;
+  margin: 16px 0px;
+}
+
+.Blog_articles-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.Blog-article {
+  display: flex;
+  padding: 40px;
+  align-items: stretch;
+  border-radius: 16px;
+  border: 1px solid #EFF0F6;
+  background: #FFF;
+  gap: 40px;
+
+}
+
+.first-article-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.Blog-hero {
+  margin: 60px 0px 80px;
+}
+
+.blog-wrapper {
+  margin-top: 180px;
+}
+
+.blog-subtitle {
+  color: #B190DB;
+  margin-bottom: 50px;
+}
+
+.fullarticle-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.fullarticle-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.fullarticle-text-container {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.line-devider {
+  height: 1px;
+  background-color: rgb(207 207 207);
+}
+
+.more-articles-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  gap: 50px;
+}
+
+.more-article-header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .Blog-article {
+    flex-direction: column-reverse;
+  }
+
+  .Blog_articles-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Blog_articles-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}

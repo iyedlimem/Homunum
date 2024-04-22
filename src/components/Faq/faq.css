@@ -1,0 +1,69 @@
+.Faq {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Faq-conatiner {
+    box-shadow: unset !important;
+}
+
+.Faq-wrapper {
+    border-radius: 18px;
+    border: 1px solid #EAEBF0;
+    background: #FFF;
+    padding: 30px;
+}
+
+.accordion-title {
+    color: #170F49;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Headings/Typography Size 4 */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 127.273% */
+    margin: 15px 0px;
+}
+
+.accordion-desc {
+    text-align: start;
+}
+
+.Mui-expanded .accordion-title {
+    color: #A05BF8;
+    /* Change the text color to your desired color */
+}
+
+.MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(45deg);
+    color: #A05BF8;
+}
+
+@media screen and (max-width: 1000px) {
+    .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .accordion-title {
+        color: #170F49;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: start;
+        margin: 15px 0px;
+    }
+
+    .Faq-wrapper {
+        padding: 10px;
+    }
+}

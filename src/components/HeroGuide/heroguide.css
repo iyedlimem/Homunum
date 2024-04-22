@@ -1,0 +1,84 @@
+.HeroGuide {
+    margin-top: 96px;
+    background-color: #1B152B;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-wrapper {
+    max-width: 1230px;
+    display: flex;
+    width: 80%;
+    margin: 80px 0px;
+    gap: 80px;
+    justify-content: space-around;
+}
+
+.hero-content {
+    color: #fff;
+    text-align: left;
+}
+
+.Hero-guide_title {
+    color: #fff;
+    text-align: start;
+}
+
+.guide-buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.hero_guide-button {
+    background-color: #fff;
+}
+
+.image_guide {
+    width: 40%;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .image_guide {
+        width: unset;
+    }
+
+    .hero-wrapper {
+        max-width: 1230px;
+        display: flex;
+        width: 80%;
+        margin: 80px auto;
+        gap: 80px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .guide-buttons {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .hero-content {
+        color: #fff;
+        text-align: center;
+    }
+
+    .Hero-guide_title {
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .hero_guide-button {
+        background-color: #fff;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,123 @@
+.contact-section {
+    margin-top: 100px;
+    display: flex;
+    padding: 10% 20%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid #EFF0F6;
+    background: conic-gradient(from 164deg at 62.71% 46.42%, #9229A4 61.13774657249451deg, #1B152B 177.18738198280334deg, #591F53 254.06551122665405deg, #7F56D9 360deg);
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+}
+
+.contact-header {
+    color: #FFF;
+    font-size: 48px;
+}
+
+.contact-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.96px;
+}
+
+.contact-input {
+    border-radius: 12px;
+    border: 1px solid #E2E8F1;
+    background: #FFF;
+    box-shadow: 0px 2px 24px 2px rgba(29, 32, 36, 0.02);
+    padding: 10px;
+}
+
+.newsletter_form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail-input {
+    border: unset;
+    padding: 10px;
+    color: rgba(95, 100, 134, 0.70);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #FFF;
+}
+
+.mail-submit {
+    border-radius: 10px;
+    background: #7F56D9;
+    box-shadow: 0px 1px 1px 0px rgba(88, 111, 54, 0.08);
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-Cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-section {
+        padding: 110.602px 102px 110.602px 106px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contact-section {
+        padding: 180.902px 13px 132.677px 13px;
+        }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    .contact-header {
+        color: #FFF;
+        font-size: 28px;
+    }
+
+    .newsletter_form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-input {
+        border: unset;
+        background-color: unset;
+    }
+
+    .mail-input {
+        border-radius: 12px;
+        border: 1px solid #E2E8F1;
+        background: #FFF;
+        box-shadow: 0px 2px 24px 2px rgba(29, 32, 36, 0.02);
+    }
+
+    .mail-submit {
+        font-size: 14px;
+        width: 80%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,50 @@
+.offre {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.offres-desc {
+    width: 70%;
+    margin: auto;
+}
+
+.offre-container {
+    display: flex;
+    padding: 24px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    border-radius: 5px;
+    border: 1px solid var(--neutral-600, #EAEBF0);
+    background: var(--base-white, #FFF);
+
+    /* Shadow/XSM */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+}
+
+.offre-item {
+    display: flex;
+}
+
+.offre-line {
+    border-radius: 5px 0px 0px 5px;
+    background: #7F56D9;
+    width: 13px;
+}
+.offre-title{
+    color: #7F56D9;
+    /* Headline XS/Desktop/Semibold */
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 136.364% */
+    letter-spacing: -0.22px;
+}
+.offre-desc{
+    margin: 0px;
+    text-align: start;
+}
